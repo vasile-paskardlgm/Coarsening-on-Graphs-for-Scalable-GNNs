@@ -1,6 +1,6 @@
 import numpy as np
 import scipy as sp
-import pygsp as gsp
+# import pygsp as gsp
 
 import os
 import tempfile

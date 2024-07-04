@@ -3,7 +3,7 @@
 # from torch_geometric.datasets import CitationFull
 import torch
 from torch_geometric.utils import to_dense_adj
-from baselines.SCAL.graph_coarsening.coarsening_utils import *
+from .graph_coarsening.coarsening_utils import *
 
 def one_hot(x, class_count):
     return torch.eye(class_count)[x, :]

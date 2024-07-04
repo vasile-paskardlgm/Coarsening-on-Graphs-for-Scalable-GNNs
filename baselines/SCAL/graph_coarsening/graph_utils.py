@@ -1,9 +1,9 @@
 import numpy as np
 import pygsp as gsp
 
-def to_networkx():
-    import networkx as nx
-    return nx.from_scipy_sparse_matrix(G.W)
+# def to_networkx():
+#     import networkx as nx
+#     return nx.from_scipy_sparse_matrix(G.W)
     
 def get_neighbors(G, i):
     return G.A[i,:].indices
